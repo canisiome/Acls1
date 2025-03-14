@@ -150,7 +150,7 @@ function startTimer() {
 }
 
 function updateScore() {
-    document.getElementById('score').textContent = `Score: ${score}/${questions.length}`;
+    document.getElementById('score').textContent = `Correct Answer: ${score}/${questions.length}`;
 }
 
 function toggleCollapse() {
